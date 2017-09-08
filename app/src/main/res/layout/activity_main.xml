@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aaron.w6d4_customviews.MainActivity">
+
+    <com.aaron.w6d4_customviews.CustomView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        app:top="0"
+        app:bottom="1"
+        app:color="@color/colorAccent"
+        app:left="1400"
+        app:right="2200"
+        />
+    <com.aaron.w6d4_customviews.CustomEditText
+        android:id="@+id/cetBlink"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+</android.support.constraint.ConstraintLayout>
